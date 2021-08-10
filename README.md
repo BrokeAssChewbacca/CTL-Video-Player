@@ -42,7 +42,7 @@ Video files should be placed at `/storage/.kodi/userdata/playlists/video/`
 Add the following to `/storage.kodi/userdata/autoexec.py`
 ```
 import xbmc
-xbmc.executebuiltin("PlayMedia(/storage/.kodi/userdata/playlists/video/<file-name>
+xbmc.executebuiltin("PlayMedia(/storage/.kodi/userdata/playlists/video/<file-name>)")
 xbmc.executebuiltin("PlayerControl(repeatall)")
 ```
 
